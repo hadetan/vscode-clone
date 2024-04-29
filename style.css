@@ -116,7 +116,6 @@ html, body{
 #download #dleft{
     width: 40%;
     height: 100%;
-    background-color: red;
     /* flex-direction: column; */
     /* flex: content; */
 }
@@ -134,11 +133,70 @@ html, body{
     font-size: 5vh;
 }
 #dtext h4{
-    color: #efefef;
+    color: #efefef7b;
     margin-top: 2vh;
+    font-weight: 100;
+}
+#dleft #btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5vh;
+}
+#dleft button{
+    border: none;
+    background-color: #007ce1;
+    color: #efefef;
+    justify-self: center;
+    align-items: center;
+    margin-left: 2px;
+}
+#dleft button:nth-child(1){
+    width: 7vw;
+}
+#dleft button:nth-child(2){
+    width: 7vw;
+}
+#dinfo{
+    color: #efefef;
+    background-color: #25252B;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh;
+    width: 17.4vw;
+    padding-bottom: 20px;
+    margin-top: 1vh;
+}
+#dinfo a{
+    color: #0089f9;
+}
+#dterms{
+    margin-top: 1.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dterms small{
+    /* opacity: .5; */
+    color: #efefef7d;
+}
+#dterms a{
+    color: #007ce1;
 }
 #download #dright{
     width: 60%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
+    position: relative;
+}
+#dright img{
+    scale: .5;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    transform: translate(-50%, -50%);
 }
