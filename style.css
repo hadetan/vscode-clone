@@ -1,0 +1,114 @@
+@font-face {
+    font-family: neue;
+    src: url(./fonts/Neue\ Haas\ Grotesk\ Text\ Pro.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    font-family: neue;
+}
+#main{
+    width: 100%;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+}
+#nav{
+    height: 6%;
+    width: 100%;
+    background-color: #2C2C32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav #logo img{
+    width: 5vh;
+    height: 5hv;
+    scale: .5;
+    /* position: absolute; */
+}
+#nav h2{
+    color: #efefef;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 2vh;
+    /* margin-right: 5vw; */
+}
+#nav button{
+    height: 100%;
+    padding: 0 1vw;
+    border: none;
+    background-color: transparent;
+    font-size: 1.8vh;
+    color: #adadad;
+}
+#nav button:hover{
+    color: #efefef;
+    cursor: pointer;
+}
+::placeholder{
+    opacity: 1;
+    color: #efefef;
+}
+#nav input{
+    height: 100%;
+    width: 10%;
+    border: none;
+    background-color: rgb(64, 64, 68);
+    background-image: url(./img/search.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    color: #fff;
+    padding: 0 0 0 40px;
+    margin-left: 9vw;
+}
+#nav input:hover{
+    border: 1px solid #ffff;
+    background-color: #525257;
+}
+#nav #down{
+    height: 100%;
+    border: none;
+    background-image: url(./img/download.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 3vh;
+    padding-left: 40px;
+    background-color: #007ce1;
+    color: #efefef;
+}
+#nav #down:hover{
+    background-color: #006dc6;
+}
+#info{
+    height: 4%;
+    width: 100%;
+    background-color: #25252B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #efefef;
+}
+#info a{
+    margin-right: 0.5vw;
+    color: #007ce1;
+}
+#info h4{
+    font-weight: 500;
+    color: #adadad;
+}
+#download{
+    height: 65%;
+    width: 100%;
+    background-color: #2C2C32;
+}
