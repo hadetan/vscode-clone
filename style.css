@@ -111,4 +111,34 @@ html, body{
     height: 65%;
     width: 100%;
     background-color: #2C2C32;
+    display: flex;
+}
+#download #dleft{
+    width: 40%;
+    height: 100%;
+    background-color: red;
+    /* flex-direction: column; */
+    /* flex: content; */
+}
+#dtext{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+#dtext h1{
+    font-weight: 100;
+    color: #efefef;
+    font-size: 5vh;
+}
+#dtext h4{
+    color: #efefef;
+    margin-top: 2vh;
+}
+#download #dright{
+    width: 60%;
+    height: 100%;
+    background-color: blue;
 }
