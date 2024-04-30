@@ -540,6 +540,114 @@ body{
     font-size: 1.9vh;
     opacity: 0.8;
 }
+#language{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 100;
+}
+#language p:nth-child(1){
+    font-size: 4vh;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+#cl{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-self: space-evenly;
+}
+#js{
+    margin-left: 7vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#py{
+    margin-left: 7vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#ja{
+    margin-left: 7vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#md{
+    margin-left: 7vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#ts{
+    margin-left: 7vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#cpp{
+    margin-left: 7vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#json{
+    margin-left: 7vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#ps{
+    margin-left: 7vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#html{
+    margin-left: 7vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#c{
+    margin-left: 7vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#php{
+    margin-left: 7vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#yaml{
+    margin-left: 7vh;
+    margin-top: 3vh;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
 #demo{
     height: 100%;
     width: 100%;
