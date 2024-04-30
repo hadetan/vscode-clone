@@ -36,7 +36,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.264), 0 10px 20px 0 rgba(0, 0, 0, 0.259);
 }
 #nav #logo img{
     width: 5vh;
@@ -227,6 +228,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 #feature #ft1{
     height: 100%;
@@ -647,6 +649,246 @@ body{
     display: flex;
     align-items: center;
     justify-content: start;
+}
+#language a{
+    color: #007ce1;
+    text-decoration: none;
+    margin-top: 4vh;
+    margin-bottom: 7vh;
+}
+#language button{
+    padding: 1.8vh 2vw;
+    font-size: 2vh;
+    color: #efefef;
+    background-color: #006dc6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 7vh;
+}
+#language button:hover{
+    background-color: #0065b8;
+}
+#minfo{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 5vh;
+}
+#multidown{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#windows{
+    /* background-color: burlywood; */
+    width: 24%;
+    height: 100%;
+}
+#windown{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+#winimg{
+    height: 100%;
+    width: 100%;
+}
+#windown img{
+    /* width: 40%; */
+    align-self: center;
+}
+#windown #wbtn button{
+    border: none;
+    width: 15vw;
+    height: 8vh;
+    margin-top: 3vh;
+    background-color: #006dc6;
+    color: #efefef;
+    font-size: 2vh;
+    cursor: pointer;
+}
+#windown #wbtn button:hover{
+    background-color: #0065b8;
+}
+#windown #wbtn button img{
+    padding-right: 1vh;
+}
+#windown #wbtn button small{
+    font-size: 1.3vh;
+}
+.installers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.installerl{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    padding-left: 5vh;
+    /* background-color: red; */
+}
+.installerl h4{
+    font-weight: 100;
+    margin-bottom: 1vh;
+}
+.installerr{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    margin-left: 2vh;
+    align-self: center;
+    justify-content: center;
+    margin-top: 3vh;
+    /* background-color: red; */
+}
+.installerr button{
+    background-color: #006dc6;
+    color: #efefef;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.installerr button:hover{
+    background-color: #0065b8;
+}
+#linux{
+    width: 23%;
+    height: 100%;
+    /* background-color: palegoldenrod; */
+}
+#lidown{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+#winimg{
+    height: 100%;
+    width: 100%;
+}
+#windown img{
+    /* width: 40%; */
+    align-self: center;
+}
+#lidown #lbtn button{
+    border: none;
+    margin-top: 3vh;
+    background-color: #006dc6;
+    color: #efefef;
+    font-size: 2vh;
+    cursor: pointer;
+}
+#lidown #lbtn button:nth-child(1){
+    width: 9vw;
+    height: 8vh;
+}
+#lidown #lbtn button:nth-child(2){
+    width: 9vw;
+    height: 8vh;
+}
+#lidown #lbtn button:hover{
+    background-color: #0065b8;
+}
+#lidown #lbtn button img{
+    padding-right: 1vh;
+}
+#lidown #lbtn button small{
+    font-size: 1.3vh;
+}
+#mac{
+    width: 20%;
+    height: 100%;
+    /* background-color: palegoldenrod; */
+}
+#macdown{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+#winimg{
+    height: 100%;
+    width: 100%;
+}
+#windown img{
+    /* width: 40%; */
+    align-self: center;
+}
+#macdown #mbtn button{
+    border: none;
+    margin-top: 3vh;
+    background-color: #006dc6;
+    color: #efefef;
+    font-size: 2vh;
+    cursor: pointer;
+}
+#macdown #mbtn button{
+    width: 15vw;
+    height: 8vh;
+}
+#macdown #mbtn button:hover{
+    background-color: #0065b8;
+}
+#macdown #mbtn button img{
+    padding-right: 1vh;
+}
+#macdown #mbtn button small{
+    font-size: 1.3vh;
+}
+.mnstallers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.mnstallerl{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-top: 3vh;
+    /* background-color: red; */
+}
+.mnstallerl h4{
+    font-weight: 100;
+    margin-bottom: 1vh;
+}
+.mnstallerr{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    margin-left: 2vh;
+    align-self: center;
+    /* justify-content: center; */
+    margin-top: 3vh;
+    /* background-color: red; */
+}
+.mnstallerr button{
+    background-color: #006dc6;
+    color: #efefef;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+.mnstallerr button:hover{
+    background-color: #0065b8;
 }
 #demo{
     height: 100%;
