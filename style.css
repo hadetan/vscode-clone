@@ -350,12 +350,195 @@ body{
     margin-bottom: 5vh;
     font-weight: 100;
     opacity: 0.8;
+    font-size: 3vh;
 }
 #iright h4{
     font-weight: 100;
     opacity: 0.8;
     line-height: 2.4;
     font-size: 1.9vh;
+}
+#debug{
+    height: 40vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dpart{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* background-color:rebeccapurple; */
+}
+#deleft{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: red; */
+}
+#deright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1.1;
+    /* background-color: blue; */
+}
+#deleft h2{
+    font-weight: 100;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    opacity: 0.8;
+}
+#deleft h4{
+    font-weight: 100;
+    line-height: 2.4;
+    font-size: 1.9vh;
+    opacity: 0.8;
+}
+#git{
+    width: 100%;
+    height: 40vh;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gpart{
+    height: 70%;
+    width: 100%;
+    display: flex;
+}
+#git #gleft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    scale: 1.1;
+}
+#git #gright{
+    height: 50%;
+    width: 50%;
+    /* background-color: blue; */
+    display: inline-flex;
+    align-items: start;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+}
+#gright h2{
+    margin-bottom: 5vh;
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 3vh;
+}
+#gright h4{
+    font-weight: 100;
+    opacity: 0.8;
+    line-height: 2.4;
+    font-size: 1.9vh;
+}
+#ext{
+    height: 40vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#epart{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* background-color:rebeccapurple; */
+}
+#eleft{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: red; */
+}
+#eright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.6;
+    /* background-color: blue; */
+}
+#eleft h2{
+    font-weight: 100;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    opacity: 0.8;
+}
+#eleft h4{
+    font-weight: 100;
+    line-height: 2.4;
+    font-size: 1.9vh;
+    opacity: 0.8;
+}
+#eleft a{
+    color: #007ce1;
+    text-decoration: none;
+}
+#deploy{
+    height: 40vh;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dppart{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* background-color:rebeccapurple; */
+}
+#dpleft{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* background-color: red; */
+}
+#dpright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1.1;
+    /* background-color: blue; */
+}
+#dpleft h2{
+    font-weight: 100;
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    opacity: 0.8;
+}
+#dpleft h4{
+    font-weight: 100;
+    line-height: 2.4;
+    font-size: 1.9vh;
+    opacity: 0.8;
 }
 #demo{
     height: 100%;
