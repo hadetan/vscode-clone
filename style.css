@@ -13,14 +13,14 @@
 }
 html, body{
     height: 100vh;
-    width: 100vw;
+    width: 102vw;
     font-family: neue;
 }
 body{
     overflow-x: hidden;
 }
 #main{
-    width: 100%;
+    width: 103%;
 }
 #home{
     width: 100%;
@@ -100,13 +100,14 @@ body{
     background-color: #006dc6;
 }
 #info{
-    height: 4%;
+    height: 10%;
     width: 100%;
     background-color: #25252B;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     color: #efefef;
+    padding-bottom: 1vh;
 }
 #info a{
     margin-right: 0.5vw;
@@ -117,7 +118,7 @@ body{
     color: #adadad;
 }
 #download{
-    height: 50%;
+    height: 60%;
     width: 100%;
     background-color: #2C2C32;
     display: flex;
@@ -128,6 +129,9 @@ body{
     opacity: 1;
     /* flex-direction: column; */
     /* flex: content; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #dtext{
     display: flex;
@@ -135,7 +139,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin-left: 10vw;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
 }
 #dtext h1{
     font-weight: 100;
@@ -683,7 +687,7 @@ body{
     width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #windows{
     /* background-color: burlywood; */
@@ -766,7 +770,7 @@ body{
     background-color: #0065b8;
 }
 #linux{
-    width: 23%;
+    width: 26%;
     height: 100%;
     /* background-color: palegoldenrod; */
 }
@@ -793,11 +797,11 @@ body{
     cursor: pointer;
 }
 #lidown #lbtn button:nth-child(1){
-    width: 9vw;
+    width: 7vw;
     height: 8vh;
 }
 #lidown #lbtn button:nth-child(2){
-    width: 9vw;
+    width: 7vw;
     height: 8vh;
 }
 #lidown #lbtn button:hover{
@@ -890,8 +894,147 @@ body{
 .mnstallerr button:hover{
     background-color: #0065b8;
 }
-#demo{
-    height: 100%;
+#bottomtxt{
+    width: 45%;
+    height: 20%;
+    /* background-color: palegoldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8vh;
+    opacity: 0.8;
+}
+#bottoml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+}
+#bottoml h3{
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+#bottoml h4{
+    font-weight: 100;
+}
+#bottoml a{
+    color: #007ce1;
+    text-decoration: none;
+}
+#bottomr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottomr h3:nth-child(2){
+    font-weight: 600;
+    margin-bottom: 1vh;
+}
+#bottomr h4{
+    font-weight: 100;
+}
+#bottomr a{
+    color: #007ce1;
+    text-decoration: none;
+}
+#tnc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    background-color: palegoldenrod;
+}
+#tnc h3{
+    font-size: 1.5vh;
+}
+#tnc p{
+    margin-top: 3vh;
+    font-size: 1.3vh;
+    font-weight: 100;
+}
+#tnc a{
+    color: #007ce1;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #efefef;
+}
+#lfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer small{
+    margin-right: 1.5vw;
+}
+#gitlogo{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0.5;
+    border-radius: 7px;
+    padding: 5px;
+    height: 6vh;
+    margin-right: -1.2vw;
+}
+#gitlogo a{
+    color: #25252B;
+    font-size: 2.7vh;
+    padding-left: 0.5vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+#gitlogo a:hover{
+    color: #006dc6;
+}
+#gitforks{
+    background-color: #fff;
+    color: #25252B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vh;
+    border-radius: 4px;
+    padding: 5px;
+}
+#gitforks a{
+    font-size: 1.3vh;
+    cursor: pointer;
+}
+#gitforks a:hover{
+    color: #006dc6;
+}
+#rfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rfooter a{
+    text-decoration: none;
+    color: #efefef;
+    margin-left: 1vw;
+    font-size: 1.5vh;
+}
+#rfooter a:hover{
+    color:#006dc6 ;
+}
+#miclogo{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    /* width: 50%; */
+    height: 50%;
+    /* background-color: red; */
+    margin-left: 1vw;
 }
