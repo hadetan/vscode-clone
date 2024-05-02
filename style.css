@@ -39,11 +39,21 @@ body{
     z-index: 3;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.264), 0 10px 20px 0 rgba(0, 0, 0, 0.259);
 }
+#nlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #nav #logo img{
     width: 5vh;
     height: 5hv;
     scale: .5;
     /* position: absolute; */
+}
+#nav #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #nav h2{
     color: #efefef;
@@ -98,6 +108,12 @@ body{
 }
 #nav #down:hover{
     background-color: #006dc6;
+}
+#nav2 ul li{
+    display: none;
+}
+#nav2 button{
+    display: none;
 }
 #info{
     height: 10vh;
@@ -1087,14 +1103,42 @@ footer small{
 @media screen and (max-width: 800px) {
     #nav{
         align-items: center;
-        justify-content: start;
+        justify-content: space-between;
         height: 6vh;
+        flex-direction: column;
     }
     #nav input{
         display: none;
     }
     #nav button{
         display: none;
+    }
+    #nlogo{
+        background-color: red;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1vw;
+        padding-right: 2vw;
+    }
+    #nav2{
+        width: 100%;
+        background-color: #2C2C32;
+    }
+    #nav2 ul li{
+        color: #efefef;
+        list-style: none;
+        display: block;
+        margin-bottom: 2vh;
+        margin-left: 2vw;
+    }
+    #nav2 button{
+        display: initial;
+        width: 100%;
+        padding-right: 90vw;
+        padding-top: 2vh;
+        padding-left: 2hv;
+        padding-bottom: 2vh;
     }
     #info{
         height: 10vh;
@@ -1151,19 +1195,28 @@ footer small{
         justify-content: space-evenly;
     }
     #feature #ft1 h4{
-        font-size: 2vh;
+        font-size: 1.5vh;
+    }
+    #feature #ft1{
+        width: 20%;
     }
     #feature #ft2 h4{
-        font-size: 2vh;
+        font-size: 1.5vh;
     }
     #feature #ft2{
         width: 20%;
     }
     #feature #ft3 h4{
-        font-size: 2vh;
+        font-size: 1.5vh;
+    }
+    #feature #ft3{
+        width: 20%;
     }
     #feature #ft4 h4{
-        font-size: 2vh;
+        font-size: 1.5vh;
+    }
+    #feature #ft4{
+        width: 20%;
     }
     #ipart #ileft img{
         height: 15vh;
@@ -1244,7 +1297,7 @@ footer small{
         margin-bottom: 5vh;
     }
     #multidown #wbtn button{
-        width: 30vw;
+        width: 40vw;
     }
     .installerl{
         width: 60%;
@@ -1254,14 +1307,14 @@ footer small{
         margin-bottom: 5vh;
     }
     #multidown #lidown #lbtn button{
-        width: 15vw;
+        width: 20vw;
     }
     #multidown #mac{
         width: 50%;
         margin-bottom: 5vh;
     }
     #multidown #mbtn button{
-        width: 30vw;
+        width: 40vw;
     }
     #bottomtxt{
         flex-direction: column;
