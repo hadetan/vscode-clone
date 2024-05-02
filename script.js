@@ -65,7 +65,7 @@ tl
     delay: -0.9
 })
 .from("#download #dright", {
-    y: 100,
+    x: 50,
     duration: 1,
     delay: -1.2,
     opacity: 0,
@@ -194,21 +194,21 @@ logo12.addEventListener("mouseleave", function(){
     logo12.style.scale = 1;
 })
 
-var downl = document.querySelector("#download #dleft #dtext");
-var downr = document.querySelector("#download #dright #vsimg");
+// var downl = document.querySelector("#download #dleft #dtext");
+// var downr = document.querySelector("#download #dright #vsimg");
 
-downl.addEventListener("mousemove", function(){
-    downl.style.scale = 1.1;
-})
-downl.addEventListener("mouseleave", function(){
-    downl.style.scale = 1;
-})
-downr.addEventListener("mousemove", function(){
-    downr.style.scale = 1.1;
-})
-downr.addEventListener("mouseleave", function(){
-    downr.style.scale = 1;
-})
+// downl.addEventListener("mousemove", function(){
+//     downl.style.scale = 1.1;
+// })
+// downl.addEventListener("mouseleave", function(){
+//     downl.style.scale = 1;
+// })
+// downr.addEventListener("mousemove", function(){
+//     downr.style.scale = 1.1;
+// })
+// downr.addEventListener("mouseleave", function(){
+//     downr.style.scale = 1;
+// })
 
 var ileft = document.querySelector("#ipart #ileft img");
 ileft.addEventListener("mousemove", function(){
