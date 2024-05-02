@@ -1007,7 +1007,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 40%;
 }
 #tnc h3{
     font-size: 1.5vh;
@@ -1016,6 +1016,8 @@ body{
     margin-top: 3vh;
     font-size: 1.3vh;
     font-weight: 100;
+    line-height: 3;
+    margin-bottom: 3vh;
 }
 #tnc a{
     color: #007ce1;
@@ -1324,6 +1326,12 @@ footer small{
         grid-template-columns: repeat(4, 1fr);
         width: 100%;
     }
+    #cl #ts{
+        margin-top: 3vh;
+    }
+    #cl #cpp{
+        margin-top: 3vh;
+    }
     #multidown{
         flex-direction: column;
     }
@@ -1370,5 +1378,135 @@ footer small{
 }
 
 @media screen and (max-width: 600px) {
-    
+    #btns button:nth-child(1){
+        width: 20% !important;
+    }
+    #btns button:nth-child(2){
+        width: 20% !important;
+    }
+    #btns button:nth-child(3){
+        width: 15% !important;
+    }
+    #dinfo{
+        width: 55%;
+        font-size: 1.4vh;
+    }
+    #feature #ft1 h4{
+        font-size: 1.3vh;
+    }
+    #feature #ft1 img{
+        width: 6vh;
+    }
+    #feature #ft1{
+        width: 15%;
+    }
+    #feature #ft2 h4{
+        font-size: 1.3vh;
+    }
+    #feature #ft2 img{
+        width: 6vh;
+    }
+    #feature #ft2{
+        width: 15%;
+    }
+    #feature #ft3 h4{
+        font-size: 1.3vh;
+    }
+    #feature #ft3 img{
+        width: 6vh;
+    }
+    #feature #ft3{
+        width: 15%;
+    }
+    #feature #ft4 h4{
+        font-size: 1.3vh;
+    }
+    #feature #ft4 img{
+        width: 6vh;
+    }
+    #feature #ft4{
+        width: 15%;
+    }
+    #intelli{
+        height: 45vh;
+    }
+    #ipart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-top: -7vh;
+    }
+    #iright{
+        width: 90% !important;
+    }
+    #debug{
+        height: 40vh;
+    }
+    #dpart{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        margin-top: -5vh;
+    }
+    #deleft{
+        width: 90% !important;
+    }
+    #git{
+        height: 45vh;
+    }
+    #gpart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-top: -7vh;
+    }
+    #gright{
+        width: 90% !important;
+    }
+    #ext{
+        height: 50vh;
+    }
+    #epart{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        margin-top: -25vh;
+    }
+    #eleft{
+        width: 90% !important;
+    }
+    #deploy{
+        height: 40vh;
+    }
+    #dppart{
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-top: -2vh;
+    }
+    #dpright{
+        width: 90% !important;
+    }
+    #language #cl{
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;
+    }
+    #ja{
+        margin-top: 3vh;
+    }
+    #md{
+        margin-top: 3vh;
+    }
+    .installerr{
+        width: 100%;
+    }
+    .mnstallers{
+        width: 50vw;
+    }
+    .mnstallerr{
+        width: 100%;
+    }
+    #tnc{
+        width: 70%;
+    }
 }
