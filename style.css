@@ -51,9 +51,7 @@ body{
     /* position: absolute; */
 }
 #nav #menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
 #nav h2{
     color: #efefef;
@@ -108,6 +106,9 @@ body{
 }
 #nav #down:hover{
     background-color: #006dc6;
+}
+#nav2{
+    height: 0;
 }
 #nav2 ul li{
     display: none;
@@ -184,6 +185,7 @@ body{
     justify-self: center;
     align-items: center;
     margin-left: 2px;
+    cursor: pointer;
 }
 #dleft button:nth-child(1){
     width: 7vw;
@@ -1107,6 +1109,17 @@ footer small{
         height: 6vh;
         flex-direction: column;
     }
+    #nav #menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #efefef;
+        padding: 3px;
+    }
+    #nav #menu:hover{
+        background-color: #efefef;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+    }
     #nav input{
         display: none;
     }
@@ -1114,7 +1127,7 @@ footer small{
         display: none;
     }
     #nlogo{
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
         display: flex;
         justify-content: space-between;
@@ -1122,8 +1135,12 @@ footer small{
         padding-right: 2vw;
     }
     #nav2{
+        /* opacity: 0; */
         width: 100%;
         background-color: #2C2C32;
+        /* overflow-x: hidden; */
+        /* height: 80vh; */
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.9s;
     }
     #nav2 ul li{
         color: #efefef;
@@ -1131,14 +1148,32 @@ footer small{
         display: block;
         margin-bottom: 2vh;
         margin-left: 2vw;
+        /* cursor: pointer; */
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+        user-select: none;
+    }
+    #nav2 ul li:hover{
+        color: #006dc9;
+    }
+    #nav2 ul{
+        width: 7vw;
+        opacity: 0;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.9s;
     }
     #nav2 button{
+        opacity: 0;
         display: initial;
         width: 100%;
         padding-right: 90vw;
         padding-top: 2vh;
         padding-left: 2hv;
         padding-bottom: 2vh;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.9s;
+        margin-bottom: 1vh;
+    }
+    #nav2 #down{
+        cursor:default;
+
     }
     #info{
         height: 10vh;
@@ -1332,4 +1367,8 @@ footer small{
     footer{
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 600px) {
+    
 }
