@@ -1394,7 +1394,7 @@ footer small{
     }
     #btns button:nth-child(3){
         width: 25% !important;
-        height: 10.5vh;
+        /* height: 10.5vh; */
     }
     #dinfo{
         width: 90%;
@@ -1520,5 +1520,17 @@ footer small{
     }
     #tnc{
         width: 70%;
+    }
+    #windows{
+        width: 100% !important;
+    }
+    #linux{
+        width: 100% !important;
+    }
+    #lbtn button{
+        width: 30vw !important;
+    }
+    #mac{
+        width: 100% !important;
     }
 }
