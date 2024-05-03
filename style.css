@@ -23,8 +23,8 @@ body{
     width: 100%;
 }
 #home{
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    /* height: 100%; */
     /* background-color: red; */
     position: relative;
 }
@@ -115,6 +115,7 @@ body{
 }
 #nav2 button{
     display: none;
+    width: 10%;
 }
 #info{
     height: 10vh;
@@ -1162,16 +1163,17 @@ footer small{
         opacity: 0;
         transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.9s;
     }
-    #nav2 button{
+    #nav2 #down{
         opacity: 0;
         display: initial;
-        width: 100%;
+        width: 10%;
         padding-right: 90vw;
         padding-top: 2vh;
         padding-left: 2hv;
         padding-bottom: 2vh;
         transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.9s;
         margin-bottom: 1vh;
+        background-color: #006dc6;
     }
     #nav2 #down{
         cursor:default;
@@ -1378,17 +1380,24 @@ footer small{
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+    }
+    body::-webkit-scrollbar{
+        overflow-x: hidden;
+    }
     #btns button:nth-child(1){
-        width: 20% !important;
+        width: 30% !important;
     }
     #btns button:nth-child(2){
-        width: 20% !important;
+        width: 30% !important;
     }
     #btns button:nth-child(3){
-        width: 15% !important;
+        width: 25% !important;
+        height: 10.5vh;
     }
     #dinfo{
-        width: 55%;
+        width: 90%;
         font-size: 1.4vh;
     }
     #feature #ft1 h4{
@@ -1440,7 +1449,7 @@ footer small{
         width: 90% !important;
     }
     #debug{
-        height: 40vh;
+        height: 47vh;
     }
     #dpart{
         flex-direction: column-reverse;
@@ -1464,7 +1473,7 @@ footer small{
         width: 90% !important;
     }
     #ext{
-        height: 50vh;
+        height: 55vh;
     }
     #epart{
         flex-direction: column-reverse;
@@ -1476,7 +1485,7 @@ footer small{
         width: 90% !important;
     }
     #deploy{
-        height: 40vh;
+        height: 50vh;
     }
     #dppart{
         flex-direction: column;
@@ -1489,7 +1498,7 @@ footer small{
     }
     #language #cl{
         grid-template-columns: repeat(2, 1fr);
-        width: 60%;
+        width: 100%;
     }
     #ja{
         margin-top: 3vh;
@@ -1501,10 +1510,13 @@ footer small{
         width: 100%;
     }
     .mnstallers{
-        width: 50vw;
+        width: 100%;
     }
     .mnstallerr{
         width: 100%;
+    }
+    #bottomtxt{
+        width: 80%;
     }
     #tnc{
         width: 70%;
