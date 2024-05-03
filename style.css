@@ -1207,7 +1207,8 @@ footer small{
         width: 15% !important;
     }
     #btns button:nth-child(3){
-        width: 10% !important;
+        /* width: 10% !important; */
+        display: none;
     }
     #dinfo{
         width: 40%;
@@ -1399,6 +1400,12 @@ footer small{
     #dinfo{
         width: 90%;
         font-size: 1.4vh;
+    }
+    #dleft{
+        width: 100% !important;
+    }
+    #vsimg{
+        width: 90% !important;
     }
     #feature #ft1 h4{
         font-size: 1.3vh;
